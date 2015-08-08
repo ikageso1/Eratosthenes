@@ -16,7 +16,7 @@ module Util
 				for i in 2..input
 					num = min*i
 					if array.include?(num)
-						array.delete(num)
+						array = array.delete(num)
 					end
 				end	
 				result.push(min)

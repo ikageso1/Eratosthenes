@@ -5,5 +5,5 @@ RSpec::Core::RakeTask.new(:spec)
 task :test => :spec
 task :default => :spec
 task :console do
-  exec "irb -r Eratosthenes -I ./lib"
+  exec "irb -r  -l ./lib"
 end
